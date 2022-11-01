@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter number : ");
+    scanf("%d",&n);
+    double m=1;
+    while(n>0)
+    {
+        m=m*n;
+        n--;
+    }
+    printf("factorial is :%f\n",m);
+}
